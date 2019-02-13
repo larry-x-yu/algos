@@ -7,6 +7,9 @@
 
     The following impplementation uses a typical back tracking algorithm.
 
+    Computation complexity: O((k-1)!), a.k.a., O(k^k);
+    Memory complexity: O(k);
+
     Explanation:
     https://www.youtube.com/watch?v=dQr4wZCiJJ4
 */
