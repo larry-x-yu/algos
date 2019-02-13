@@ -1,3 +1,13 @@
+/* Given a graph, identify all cycles that uses each and every vertex once and only once.
+    The result should contain no duplicates.
+
+    Note, if there're cycles in the graph, the graph can start at any vertex,
+    hencd we can choose any vertex as the starting point without affecting the
+    correctness of the result. The benefit of this choice is to eliminate duplicates.
+
+    The following impplementation uses a typical back tracking algorithm.
+*/
+
 function backtrack(matrix, path, step, visited, ans) {
 
     console.log(step, path)
