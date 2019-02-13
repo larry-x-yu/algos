@@ -6,6 +6,9 @@
     correctness of the result. The benefit of this choice is to eliminate duplicates.
 
     The following impplementation uses a typical back tracking algorithm.
+
+    Explanation:
+    https://www.youtube.com/watch?v=dQr4wZCiJJ4
 */
 
 function backtrack(matrix, path, step, visited, ans) {
